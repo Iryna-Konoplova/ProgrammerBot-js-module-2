@@ -14,11 +14,11 @@ function includes(array, value) {
     for (const arrayi of array) {
        
         if (arrayi === value) {
-            return arrayi === value;
+            return true;
             
         }    
     }
-       return Boolean(0);
+       return false;
      
   // Пиши код выше этой строки
 }
